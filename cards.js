@@ -1,7 +1,8 @@
 
 let cardsContainer = document.getElementById('cardsContainer');
 let createBtn = document.getElementById('createBtn');
-let clearBtn = document.getElementById('clearBtn');
+let clearAllBtn = document.getElementById('clearAllBtn');
+let clearTxtBtn = document.getElementById('clearTxtBtn');
 let textInput = document.getElementById('textInput');
 
 function createCard() {
@@ -41,9 +42,11 @@ textInput.addEventListener('keypress', function(event){
 	};
 });
 
-clearBtn.addEventListener('click', function() {
+clearAllBtn.addEventListener('click', function() {
 	cardsContainer.innerHTML = '';
 	textInput.value = '';
 });
-
+clearTxtBtn.addEventListener('click', function() {
+	textInput.value = '';
+});
 
