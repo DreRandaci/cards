@@ -1,16 +1,72 @@
+
+h1 {
+	text-align: center;
+	color: #940c2e;
+	margin-top: 50px;
+}
+h3 {
+	color: #940c2e;
+}
+#inputFieldDiv {
+	margin: 0 auto;
+	text-align: center;
+}
+#clearBtnDiv {
+	margin: 0 auto;
+	text-align: center;
+}
+#textInput {
+	width: 30%;
+	text-align: center;
+	height: 25px;
+}
 #cardsContainer {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 #cardBox {
-	border: 1px solid black;
-	margin: 20px;
+	border: 3px solid #a56512;
+	margin: 15px;
+	height: 100px;
+	min-width: 15%;
+	background: url('http://www.firsthdwallpapers.com/uploads/2014/03/abstract-free-christmas-desktop-wallpaper-nexus-52.jpg');
+    background-size: 300px 280px;
+    background-repeat: no-repeat;
 }
 .text {
+	width: 100%;
+}
+.text h3 {
 	padding: 1em;
-	/*width: 100px;*/
+	margin: 0;
+	text-align: center;
 }
 .deleteBtnDiv {
-	/*margin: 25%;*/
+	text-align: center;
+	padding-top: 1em;
 }
-/*.del*/
+h1:active, h1:focus, h1:hover {
+    color: #222;
+}
+#createBtn {
+	margin-top: 20px;
+}
+#clearBtn {
+	width: 89px;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: ghostwhite;
+  text-decoration: none;
+}
