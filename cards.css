@@ -1,0 +1,16 @@
+#cardsContainer {
+	display: flex;
+	justify-content: center;
+}
+#cardBox {
+	border: 1px solid black;
+	margin: 20px;
+}
+.text {
+	padding: 1em;
+	/*width: 100px;*/
+}
+.deleteBtnDiv {
+	/*margin: 25%;*/
+}
+/*.del*/
